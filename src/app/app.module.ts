@@ -9,11 +9,13 @@ import { WeatherHomeComponent } from './modules/wheater/page/weather-home/weathe
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WeatherCardComponent } from './modules/wheater/components/weather-card/weather-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherHomeComponent
+    WeatherHomeComponent,
+    WeatherCardComponent
   ],
   imports: [
     BrowserModule,
